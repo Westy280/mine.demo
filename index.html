@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Card-ly: Manage Your Gift Cards</title>
+</head>
+<body>
+    <nav>
+        <a class="logo" href="index.htm">Card<span class="logo">-ly</span></a><input type="checkbox" id="click"><label for="click" class="menu-btn text-white"><svg stroke="currentColor" fill="currentColor" stroke-width="0" viewbox="0 0 448 512" height="1em" width="1em" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 132h416c8.837 0 16-7.163 16-16V76c0-8.837-7.163-16-16-16H16C7.163 60 0 67.163 0 76v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16zm0 160h416c8.837 0 16-7.163 16-16v-40c0-8.837-7.163-16-16-16H16c-8.837 0-16 7.163-16 16v40c0 8.837 7.163 16 16 16z"></path></svg></label>
+        <ul>
+          <li><a class="navlink active">Home</a></li>
+          <li><a href="#services" class="navlink">Services</a></li>
+          <li><a href="#footer" class="navlink">Contact Us</a></li>
+          <li><a href="#card-modal" class="btn btn-light fw-bold">Verify now</a></li>
+        </ul>
+      </nav>
+
+
+
+
+
+
+      <div class="modal" tabindex="-1" id="modall" style="margin-top: 80px;">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-body">
+              <div class="bg-white px-4 pt-5 pb-4 sm:p-6 sm:pb-4">
+                <h1 class="text-green-500 text-4xl text-center" style="font-size: 20px; color:green">SUCCESS !</h1>
+                <h1 class="text-center text-xl" style="font-size: 20px;">Your <b id="card">name of card</b> giftcard has been verified</h1><br>
+                <hr/>
+                <h1 class="text-center mt-5" style="font-size: 18px;">Card Brand : <b id="cards">Name of card</b></h1>
+                <h1 class="text-center mt-5" style="font-size: 18px;">Card Amount : <b id="sign"></b> <b id="amt">Amount of card</b></h1>
+                <h1 class="text-center mt-5" style="font-size: 18px;">Card Status : <b>Not activated</b></h1>
+                <hr>
+                
+                
+            </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+
+
+
+
+
+
+      <section id="hero">
+        <div class="hero-body">
+          <div class="hero-caption aos-init aos-animate" data-aos="fade-up">
+            <h1 class="hero-title text-white">
+              Giftcard <span class="text-success">Validation</span> and Activation
+              Check
+            </h1>
+            <div class="hero-sub-text1 text-white">
+              an efficient frame work that provides a robust verification,
+            </div>
+            <div class="hero-sub-text1 text-white">
+              Using a smart anti logarithm that runs very fast to provide an
+              adequate activation information.
+            </div>
+            <div class="hero-action-btn py-3">
+              <a href="#card-modal" class="btn btn-light btn-lg">Verify now</a>
+            </div>
+          </div>
+          <div class="hero-banner py-3 px-4 aos-init aos-animate" data-aos="fade-up">
+            <img src="gcc1.946c88c6.webp" class="gcimage img-fluid" alt="giftcard">
+          </div>
+        </div>
+      </section>
+
+      <div class="engagement">
+        <div class="ft2 aos-init aos-animate" data-aos="fade-up">
+          <img src="gcc2.0cb4b1ce.webp" class="img-fluid" alt="cards">
+        </div>
+        <div class="ft1">
+          <h2 class="text-center aos-init aos-animate" data-aos="fade-up">
+            We have verified over 10k giftcards on our site.<br>Verify yours now
+          </h2>
+          <div class="text-center aos-init aos-animate" data-aos="fade-up">
+            <a href="#card-modal" class="btn btn-success btn-lg my-3">Try it for free</a>
+          </div>
+        </div>
+      </div>
+    
+</body>
+</html>

@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Poppins, sans-serif;
+  }
+  
+  nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 50px;
+    flex-wrap: wrap;
+    background-color: #3e049b;
+  }
+
+  nav .logo {
+    color: #fff;
+    font-size: 40px;
+    font-weight: 500;
+    text-decoration: none;
+    font-family: Zen Tokyo Zoo, cursive;
+  }
+
+  .logo:hover {
+    color: #fff;
+  }
+
+  nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    margin-bottom: 0;
+    align-items: center;
+  }
+
+  nav ul li {
+    margin: 0 5px;
+  }
+
+  nav ul li .navlink {
+    color: #f2f2f2;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 8px 15px;
+    letter-spacing: 1px;
+    transition: all 0.3s ease;
+    cursor: pointer;
+  }
+
+  nav ul li a:hover {
+    color: #fff;
+    font-weight: 700;
+  }
+  
+  nav .menu-btn svg {
+    color: #fff;
+    font-size: 22px;
+    cursor: pointer;
+    display: none;
+  }
+
+  input[type="checkbox"],
+.lbtn {
+  display: none;
+}
